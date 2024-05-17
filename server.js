@@ -5,12 +5,12 @@ const connectDB = require("./config/database.js");
 const morgan = require("morgan");
 const homeRoutes = require("./routes/home.js");
 const apiRoutes = require("./routes/api.js");
+const PORT = process.env.PORT || 3000;
 
 dotenv.config({ path: "./config/config.env" });
 
 // Server config
 const app = express();
-const PORT = process.env.PORT || 5000;
 
 // Connect to Database
 connectDB();
