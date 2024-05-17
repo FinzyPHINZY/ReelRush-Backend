@@ -1,0 +1,23 @@
+{
+  "name": "reelrush-backend",
+  "description": "A dynamic and engaging short-video platform similar to TikTok. ReelRush aims to provide a platform for creativity, connection, and fun, where users can share their moments and discover trending content.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Boluwatife Adeyemi",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-router": "^0.0.1",
+    "mongoose": "^8.3.5",
+    "morgan": "^1.10.0"
+  }
+}
