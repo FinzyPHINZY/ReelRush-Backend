@@ -9,7 +9,6 @@ router.get("/posts", async (req, res) => {
   try {
     const posts = await Post.find();
     res.json(posts);
-    console.log(posts);
   } catch (err) {
     console.error(err);
   }
@@ -36,7 +35,6 @@ router.get("/posts/:id", (req, res) => {
 // route       http://localhost:5000/api/posts/newPost
 router.post("/posts/newPost", async (req, res) => {
   try {
-    console.log(req.body);
     const newPost = req.body;
     await Post.create(newPost);
 

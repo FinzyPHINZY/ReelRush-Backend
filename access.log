@@ -1,0 +1,4 @@
+::1 - GET / HTTP/1.1 304 - - 3.386 ms
+::1 - GET /api/posts HTTP/1.1 304 - - 286.440 ms
+::1 - GET /api/posts HTTP/1.1 304 - - 155.082 ms
+::1 - GET /api/posts HTTP/1.1 304 - - 184.943 ms
