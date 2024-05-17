@@ -16,7 +16,7 @@ const app = express();
 connectDB();
 
 // Middlewares
-app.use("trust proxy", true);
+app.set("trust proxy", true);
 app.use(cors());
 app.use(express.static("public"));
 app.use(express.json());
