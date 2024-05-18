@@ -4,8 +4,9 @@ const postSchema = new mongoose.Schema({
   url: String,
   channel: String,
   song: String,
-  likes: String,
-  messages: String,
+  likes: Number,
+  messages: Number,
+  shares: Number,
   description: String,
   createdAt: String,
 });

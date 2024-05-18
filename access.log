@@ -2,3 +2,6 @@
 ::1 - GET /api/posts HTTP/1.1 304 - - 286.440 ms
 ::1 - GET /api/posts HTTP/1.1 304 - - 155.082 ms
 ::1 - GET /api/posts HTTP/1.1 304 - - 184.943 ms
+::1 - GET / HTTP/1.1 200 76 - 2.637 ms
+::1 - GET /api/posts HTTP/1.1 200 477 - 692.975 ms
+::1 - GET /api/posts/0 HTTP/1.1 200 200 - 0.568 ms
