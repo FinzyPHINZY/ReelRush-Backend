@@ -20,9 +20,9 @@ You can also access the live demo of the ReelRush frontend here:
 - [License](#license)
 - [Contact](#contact)
 
-## Why I Built This
+## Optimizations
 
-This was built to se
+This project was built to practice full-stack web development using React for the frontend and Node.js for the backend. While I could have added features such as authentication, user account creation, video updates, and comprehensive profile management, my primary goal was to attempt integrating a Node.js backend with a React frontend. For more advanced implementations and features, please check out my other projects on GitHub, where I have explored these functionalities in depth.
 
 ## Technology Used
 
