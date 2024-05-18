@@ -1,38 +1,34 @@
 # Reel Rush
 
-Welcome to **ReelRush**, a dynamic and engaging short-video platform similar to TikTok. This README provides an overview of the project, instructions for installation, usage, and guidelines for contributing.
-ReelRush aims to provide a platform for creativity, connection, and fun, where users can share their moments and discover trending content.
+Welcome to **ReelRush Backend**, a dynamic and engaging short-video platform similar to TikTok.This backend is designed to handle the server-side logic of the ReelRush.
+
+## Frontend
+
+The frontend of the ReelRush application is deployed on Firebase and can be found in the following repository:
+
+[ReelRush Frontend Repository](https://github.com/FinzyPHINZY/ReelRush)
+
+You can also access the live demo of the ReelRush frontend here:
+
+[Live Demo](https://reelrush-5e482.web.app/)
 
 ## Table of Contents
 
-- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
-## Features
-
-- Create and share short videos
-- Follow other users and view their content
-- Like, comment, and share videos
-- Discover trending content through personalized feeds
-- In-app video editing with various effects and filters
-
 ## Why I Built This
 
-ReelRush was created to provide a platform for creativity and connection through short-form video content. Inspired by the success and engaging nature of TikTok, I wanted to build a similar platform that encourages users to express themselves, share their talents, and connect with a global community.
+This was built to se
 
 ## Technology Used
 
-- **Frontend:** React.js, Redux, Material-UI, HTML5, CSS3, JavaScript, Flexbox
+- **Frontend:** React.js, HTML5, CSS3, JavaScript, Flexbox, CSS Grid
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB, Mongoose
-- **Authentication:** JWT (JSON Web Tokens)
-- **Cloud Storage:** AWS S3 (or any other cloud storage service you may use)
-- **Video Processing:** FFmpeg (optional, for video encoding and processing)
 - **Deployment:** Render
 - **Hosting:** Firebase Hosting (for deploying frontend)
 
@@ -49,7 +45,7 @@ Ensure you have the following installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/reelrush.git
+git clone https://github.com/yourusername/reelrush-backend.git
 cd reelrush
 ```
 
@@ -71,9 +67,7 @@ cd reelrush
    Create a `.env` file in the backend directory with the following variables:
 
    ```plaintext
-   PORT=5000
    MONGODB_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret
    ```
 
 4. Start the backend server:
@@ -83,10 +77,10 @@ cd reelrush
 
 ### Frontend Setup
 
-1. Navigate to the frontend directory:
+1. Navigate to the frontend directory (make sure you clone the frontend repository):
 
    ```bash
-   cd ../frontend
+   cd reelrush
    ```
 
 2. Install the required dependencies:
@@ -95,14 +89,7 @@ cd reelrush
    npm install
    ```
 
-3. Configure the environment variables:
-   Create a `.env` file in the frontend directory with the following variables:
-
-   ```plaintext
-   REACT_APP_API_URL=http://localhost:5000
-   ```
-
-4. Start the frontend development server:
+3. Start the frontend development server:
    ```bash
    npm start
    ```
@@ -114,35 +101,6 @@ cd reelrush
 1. Ensure the backend server is running.
 2. Start the frontend development server.
 3. Open your browser and navigate to `http://localhost:3000`.
-
-### Key Functionalities
-
-- **Home Feed:** View a feed of trending videos.
-- **Profile:** View and manage your profile and uploaded videos.
-- **Upload:** Create and upload new videos with editing options.
-
-## Project Structure
-
-```plaintext
-reelrush/
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── .env
-│   ├── server.js
-│   └── ...
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── App.js
-│   │   └── ...
-│   ├── .env
-│   └── ...
-└── README.md
-```
 
 ## Contributing
 
@@ -167,7 +125,7 @@ Please ensure your code follows our coding standards and includes appropriate te
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License.
 
 ## Contact
 
